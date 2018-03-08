@@ -1,1 +1,2 @@
-zone "blacklisted.domain" {type master; file "/etc/bind/blockeddomains.db";};
+zone "facebook.com" {type master; file "/etc/bind/blockeddomains.db";};
+zone "twitter.com" {type master; file "/etc/bind/blockeddomains.db";};
