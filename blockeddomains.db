@@ -1,0 +1,11 @@
+$TTL    3H
+@       IN      SOA     localhost. root.localhost. (
+                        1       ; serial
+                        1D      ; refresh
+                        1H      ; retry
+                        1W      ; expire
+                        3H )    ; minimum
+;
+        IN  NS  @ 
+*       IN  A   127.0.0.1
+*       IN      AAAA    ::1
